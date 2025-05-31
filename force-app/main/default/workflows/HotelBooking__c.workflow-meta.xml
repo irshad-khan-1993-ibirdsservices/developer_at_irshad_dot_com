@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>email_alert_for_send_email_to_Customer_when_status_is_confirmed</fullName>
+        <description>send email to HotelCustomer when status is confirmed Description</description>
+        <protected>false</protected>
+        <recipients>
+            <field>CustomerEmail__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/IRSHAD_for_HotelCustomer_bookig_confirmed</template>
+    </alerts>
+    <alerts>
+        <fullName>irshad_email_alerts_for_send_HotelBill_via_email_to_HotelCustomer_when_status_is</fullName>
+        <description>irshad_email_alert_for_send_HotelBill_via_ email_to_HotelCustomer_when_status_is_CheckOut</description>
+        <protected>false</protected>
+        <recipients>
+            <field>CustomerEmail__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/HotelBill_via_email_to_HotelCustomer_when_status_is_checkout</template>
+    </alerts>
+    <rules>
+        <fullName>send email to HotelCustomer when status is confirmed</fullName>
+        <actions>
+            <name>email_alert_for_send_email_to_Customer_when_status_is_confirmed</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>ISPICKVAL( Status__c , &quot;Confirmed&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>workflow_rules_for_send_bill_via_email_to_HotelCustomer_when_status_is_checkout</fullName>
+        <actions>
+            <name>irshad_email_alerts_for_send_HotelBill_via_email_to_HotelCustomer_when_status_is</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>ISPICKVAL( Status__c , &quot;CheckOut&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

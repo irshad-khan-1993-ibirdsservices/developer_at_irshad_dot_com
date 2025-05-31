@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>IRSHAD_Registration_email_field_update</fullName>
+        <field>RegistrationEmail__c</field>
+        <formula>RegisteringStudent__r.Email__c</formula>
+        <name>IRSHAD_Registration_email_field_update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>workflow_rule_for_registering_student_email_update</fullName>
+        <actions>
+            <name>IRSHAD_Registration_email_field_update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>NOT(ISNULL(RegisteringStudent__r.Email__c ) &amp;&amp;  ISBLANK(RegisteringStudent__r.Email__c ))</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

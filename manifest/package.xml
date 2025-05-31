@@ -32,5 +32,13 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>TopicsForObjects</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexEmailNotifications</name>
+    </types>
     <version>63.0</version>
 </Package>
