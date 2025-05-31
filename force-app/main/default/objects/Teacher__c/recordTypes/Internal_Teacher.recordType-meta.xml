@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal_Teacher</fullName>
+    <active>true</active>
+    <label>Internal Teacher</label>
+    <picklistValues>
+        <picklist>Subjects__c</picklist>
+        <values>
+            <fullName>BCA</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>MCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

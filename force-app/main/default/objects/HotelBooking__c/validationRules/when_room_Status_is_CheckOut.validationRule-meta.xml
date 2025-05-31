@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>when_room_Status_is_CheckOut</fullName>
+    <active>true</active>
+    <description>if your Room Status is CheckOut then Your RoomNo and CheckIn-Time and CheckOut-Time is required</description>
+    <errorConditionFormula>ISPICKVAL(Status__c  ,&quot;CheckOut&quot;) &amp;&amp; 
+ISBLANK(RoomNo__r.Room_No__c) || 
+ISBLANK( CheckIn_Time__c ) ||  
+ISBLANK( CheckOut_Time__c )</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>if your Room Status is CheckOut Then Your RoomNo and Your CheckIn-Time and CheckOut-Time is required</errorMessage>
+</ValidationRule>

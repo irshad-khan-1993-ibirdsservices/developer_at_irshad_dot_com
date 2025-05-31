@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>City__c</fullName>
+    <label>City</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>State__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Jaipur</fullName>
+                <default>false</default>
+                <label>Jaipur</label>
+            </value>
+            <value>
+                <fullName>Jodhpur</fullName>
+                <default>false</default>
+                <label>Jodhpur</label>
+            </value>
+            <value>
+                <fullName>Ajmer</fullName>
+                <default>false</default>
+                <label>Ajmer</label>
+            </value>
+            <value>
+                <fullName>Udaipur</fullName>
+                <default>false</default>
+                <label>Udaipur</label>
+            </value>
+            <value>
+                <fullName>Bikaner</fullName>
+                <default>false</default>
+                <label>Bikaner</label>
+            </value>
+            <value>
+                <fullName>Alwar</fullName>
+                <default>false</default>
+                <label>Alwar</label>
+            </value>
+            <value>
+                <fullName>Kota</fullName>
+                <default>false</default>
+                <label>Kota</label>
+            </value>
+            <value>
+                <fullName>Sikar</fullName>
+                <default>false</default>
+                <label>Sikar</label>
+            </value>
+            <value>
+                <fullName>Tonk</fullName>
+                <default>false</default>
+                <label>Tonk</label>
+            </value>
+            <value>
+                <fullName>Nagaur</fullName>
+                <default>false</default>
+                <label>Nagaur</label>
+            </value>
+            <value>
+                <fullName>Gurugram (Gurgaon)</fullName>
+                <default>false</default>
+                <label>Gurugram (Gurgaon)</label>
+            </value>
+            <value>
+                <fullName>Faridabad</fullName>
+                <default>false</default>
+                <label>Faridabad</label>
+            </value>
+            <value>
+                <fullName>Ambala</fullName>
+                <default>false</default>
+                <label>Ambala</label>
+            </value>
+            <value>
+                <fullName>Hisar</fullName>
+                <default>false</default>
+                <label>Hisar</label>
+            </value>
+            <value>
+                <fullName>Sonipat</fullName>
+                <default>false</default>
+                <label>Sonipat</label>
+            </value>
+            <value>
+                <fullName>Panchkula</fullName>
+                <default>false</default>
+                <label>Panchkula</label>
+            </value>
+            <value>
+                <fullName>Rohtak</fullName>
+                <default>false</default>
+                <label>Rohtak</label>
+            </value>
+            <value>
+                <fullName>Karnal</fullName>
+                <default>false</default>
+                <label>Karnal</label>
+            </value>
+            <value>
+                <fullName>Bhiwani</fullName>
+                <default>false</default>
+                <label>Bhiwani</label>
+            </value>
+            <value>
+                <fullName>Fatehabad</fullName>
+                <default>false</default>
+                <label>Fatehabad</label>
+            </value>
+            <value>
+                <fullName>Indore</fullName>
+                <default>false</default>
+                <label>Indore</label>
+            </value>
+            <value>
+                <fullName>Bhopal</fullName>
+                <default>false</default>
+                <label>Bhopal</label>
+            </value>
+            <value>
+                <fullName>Gwalior</fullName>
+                <default>false</default>
+                <label>Gwalior</label>
+            </value>
+            <value>
+                <fullName>Jabalpur</fullName>
+                <default>false</default>
+                <label>Jabalpur</label>
+            </value>
+            <value>
+                <fullName>Ujjain</fullName>
+                <default>false</default>
+                <label>Ujjain</label>
+            </value>
+            <value>
+                <fullName>Sagar</fullName>
+                <default>false</default>
+                <label>Sagar</label>
+            </value>
+            <value>
+                <fullName>Rewa</fullName>
+                <default>false</default>
+                <label>Rewa</label>
+            </value>
+            <value>
+                <fullName>Dewas</fullName>
+                <default>false</default>
+                <label>Dewas</label>
+            </value>
+            <value>
+                <fullName>Katni</fullName>
+                <default>false</default>
+                <label>Katni</label>
+            </value>
+            <value>
+                <fullName>Mandsaur</fullName>
+                <default>false</default>
+                <label>Mandsaur</label>
+            </value>
+            <value>
+                <fullName>Lucknow</fullName>
+                <default>false</default>
+                <label>Lucknow</label>
+            </value>
+            <value>
+                <fullName>Varanasi</fullName>
+                <default>false</default>
+                <label>Varanasi</label>
+            </value>
+            <value>
+                <fullName>Kanpur</fullName>
+                <default>false</default>
+                <label>Kanpur</label>
+            </value>
+            <value>
+                <fullName>Agra</fullName>
+                <default>false</default>
+                <label>Agra</label>
+            </value>
+            <value>
+                <fullName>Ghaziabad</fullName>
+                <default>false</default>
+                <label>Ghaziabad</label>
+            </value>
+            <value>
+                <fullName>Noida</fullName>
+                <default>false</default>
+                <label>Noida</label>
+            </value>
+            <value>
+                <fullName>Meerut</fullName>
+                <default>false</default>
+                <label>Meerut</label>
+            </value>
+            <value>
+                <fullName>Bareilly</fullName>
+                <default>false</default>
+                <label>Bareilly</label>
+            </value>
+            <value>
+                <fullName>Aligarh</fullName>
+                <default>false</default>
+                <label>Aligarh</label>
+            </value>
+            <value>
+                <fullName>Mumbai</fullName>
+                <default>false</default>
+                <label>Mumbai</label>
+            </value>
+            <value>
+                <fullName>Pune</fullName>
+                <default>false</default>
+                <label>Pune</label>
+            </value>
+            <value>
+                <fullName>Nagpur</fullName>
+                <default>false</default>
+                <label>Nagpur</label>
+            </value>
+            <value>
+                <fullName>Thane</fullName>
+                <default>false</default>
+                <label>Thane</label>
+            </value>
+            <value>
+                <fullName>Nashik</fullName>
+                <default>false</default>
+                <label>Nashik</label>
+            </value>
+            <value>
+                <fullName>Aurangabad</fullName>
+                <default>false</default>
+                <label>Aurangabad</label>
+            </value>
+            <value>
+                <fullName>Kolhapur</fullName>
+                <default>false</default>
+                <label>Kolhapur</label>
+            </value>
+            <value>
+                <fullName>Solapur</fullName>
+                <default>false</default>
+                <label>Solapur</label>
+            </value>
+            <value>
+                <fullName>Raigad</fullName>
+                <default>false</default>
+                <label>Raigad</label>
+            </value>
+            <value>
+                <fullName>Ahmednagar</fullName>
+                <default>false</default>
+                <label>Ahmednagar</label>
+            </value>
+            <value>
+                <fullName>Ludhiana</fullName>
+                <default>false</default>
+                <label>Ludhiana</label>
+            </value>
+            <value>
+                <fullName>Amritsar</fullName>
+                <default>false</default>
+                <label>Amritsar</label>
+            </value>
+            <value>
+                <fullName>Jalandhar</fullName>
+                <default>false</default>
+                <label>Jalandhar</label>
+            </value>
+            <value>
+                <fullName>Patiala</fullName>
+                <default>false</default>
+                <label>Patiala</label>
+            </value>
+            <value>
+                <fullName>Mohali (SAS Nagar)</fullName>
+                <default>false</default>
+                <label>Mohali (SAS Nagar)</label>
+            </value>
+            <value>
+                <fullName>Barnala</fullName>
+                <default>false</default>
+                <label>Barnala</label>
+            </value>
+            <value>
+                <fullName>Fatehgarh Sahib</fullName>
+                <default>false</default>
+                <label>Fatehgarh Sahib</label>
+            </value>
+            <value>
+                <fullName>Rupnagar (Ropar)</fullName>
+                <default>false</default>
+                <label>Rupnagar (Ropar)</label>
+            </value>
+            <value>
+                <fullName>Mansa</fullName>
+                <default>false</default>
+                <label>Mansa</label>
+            </value>
+            <value>
+                <fullName>Sangrur</fullName>
+                <default>false</default>
+                <label>Sangrur</label>
+            </value>
+            <value>
+                <fullName>Central Delhi</fullName>
+                <default>false</default>
+                <label>Central Delhi</label>
+            </value>
+            <value>
+                <fullName>North Delhi</fullName>
+                <default>false</default>
+                <label>North Delhi</label>
+            </value>
+            <value>
+                <fullName>South Delhi</fullName>
+                <default>false</default>
+                <label>South Delhi</label>
+            </value>
+            <value>
+                <fullName>East Delhi</fullName>
+                <default>false</default>
+                <label>East Delhi</label>
+            </value>
+            <value>
+                <fullName>West Delhi</fullName>
+                <default>false</default>
+                <label>West Delhi</label>
+            </value>
+            <value>
+                <fullName>North East Delhi</fullName>
+                <default>false</default>
+                <label>North East Delhi</label>
+            </value>
+            <value>
+                <fullName>North West Delhi</fullName>
+                <default>false</default>
+                <label>North West Delhi</label>
+            </value>
+            <value>
+                <fullName>South East Delhi</fullName>
+                <default>false</default>
+                <label>South East Delhi</label>
+            </value>
+            <value>
+                <fullName>South West Delhi</fullName>
+                <default>false</default>
+                <label>South West Delhi</label>
+            </value>
+            <value>
+                <fullName>New Delhi</fullName>
+                <default>false</default>
+                <label>New Delhi</label>
+            </value>
+            <value>
+                <fullName>Shahdara</fullName>
+                <default>false</default>
+                <label>Shahdara</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Rajasthan</controllingFieldValue>
+            <valueName>Jaipur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rajasthan</controllingFieldValue>
+            <valueName>Jodhpur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rajasthan</controllingFieldValue>
+            <valueName>Ajmer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rajasthan</controllingFieldValue>
+            <valueName>Udaipur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rajasthan</controllingFieldValue>
+            <valueName>Bikaner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rajasthan</controllingFieldValue>
+            <valueName>Alwar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rajasthan</controllingFieldValue>
+            <valueName>Kota</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rajasthan</controllingFieldValue>
+            <valueName>Sikar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rajasthan</controllingFieldValue>
+            <valueName>Tonk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rajasthan</controllingFieldValue>
+            <valueName>Nagaur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Haryana</controllingFieldValue>
+            <valueName>Gurugram (Gurgaon)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Haryana</controllingFieldValue>
+            <valueName>Faridabad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Haryana</controllingFieldValue>
+            <valueName>Ambala</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Haryana</controllingFieldValue>
+            <valueName>Hisar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Haryana</controllingFieldValue>
+            <valueName>Sonipat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Haryana</controllingFieldValue>
+            <valueName>Panchkula</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Haryana</controllingFieldValue>
+            <valueName>Rohtak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Haryana</controllingFieldValue>
+            <valueName>Karnal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Haryana</controllingFieldValue>
+            <valueName>Bhiwani</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Haryana</controllingFieldValue>
+            <valueName>Fatehabad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madhya Predesh</controllingFieldValue>
+            <valueName>Indore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madhya Predesh</controllingFieldValue>
+            <valueName>Bhopal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madhya Predesh</controllingFieldValue>
+            <valueName>Gwalior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madhya Predesh</controllingFieldValue>
+            <valueName>Jabalpur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madhya Predesh</controllingFieldValue>
+            <valueName>Ujjain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madhya Predesh</controllingFieldValue>
+            <valueName>Sagar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madhya Predesh</controllingFieldValue>
+            <valueName>Rewa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madhya Predesh</controllingFieldValue>
+            <valueName>Dewas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madhya Predesh</controllingFieldValue>
+            <valueName>Katni</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madhya Predesh</controllingFieldValue>
+            <valueName>Mandsaur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utter Predesh</controllingFieldValue>
+            <valueName>Lucknow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utter Predesh</controllingFieldValue>
+            <valueName>Varanasi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utter Predesh</controllingFieldValue>
+            <valueName>Kanpur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utter Predesh</controllingFieldValue>
+            <valueName>Agra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utter Predesh</controllingFieldValue>
+            <valueName>Ghaziabad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utter Predesh</controllingFieldValue>
+            <valueName>Noida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utter Predesh</controllingFieldValue>
+            <valueName>Meerut</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utter Predesh</controllingFieldValue>
+            <valueName>Bareilly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utter Predesh</controllingFieldValue>
+            <valueName>Aligarh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maharashtra</controllingFieldValue>
+            <valueName>Mumbai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maharashtra</controllingFieldValue>
+            <valueName>Pune</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maharashtra</controllingFieldValue>
+            <valueName>Nagpur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maharashtra</controllingFieldValue>
+            <valueName>Thane</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maharashtra</controllingFieldValue>
+            <valueName>Nashik</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maharashtra</controllingFieldValue>
+            <valueName>Aurangabad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maharashtra</controllingFieldValue>
+            <valueName>Kolhapur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maharashtra</controllingFieldValue>
+            <valueName>Solapur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maharashtra</controllingFieldValue>
+            <valueName>Raigad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maharashtra</controllingFieldValue>
+            <valueName>Ahmednagar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panjab</controllingFieldValue>
+            <valueName>Ludhiana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panjab</controllingFieldValue>
+            <valueName>Amritsar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panjab</controllingFieldValue>
+            <valueName>Jalandhar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panjab</controllingFieldValue>
+            <valueName>Patiala</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panjab</controllingFieldValue>
+            <valueName>Mohali (SAS Nagar)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panjab</controllingFieldValue>
+            <valueName>Barnala</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panjab</controllingFieldValue>
+            <valueName>Fatehgarh Sahib</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panjab</controllingFieldValue>
+            <valueName>Rupnagar (Ropar)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panjab</controllingFieldValue>
+            <valueName>Mansa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panjab</controllingFieldValue>
+            <valueName>Sangrur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delhi</controllingFieldValue>
+            <valueName>Central Delhi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delhi</controllingFieldValue>
+            <valueName>North Delhi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delhi</controllingFieldValue>
+            <valueName>South Delhi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delhi</controllingFieldValue>
+            <valueName>East Delhi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delhi</controllingFieldValue>
+            <valueName>West Delhi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delhi</controllingFieldValue>
+            <valueName>North East Delhi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delhi</controllingFieldValue>
+            <valueName>North West Delhi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delhi</controllingFieldValue>
+            <valueName>South East Delhi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delhi</controllingFieldValue>
+            <valueName>South West Delhi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delhi</controllingFieldValue>
+            <valueName>New Delhi</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

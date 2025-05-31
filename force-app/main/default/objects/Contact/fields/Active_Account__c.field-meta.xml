@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>internship me batya tha</description>
+    <inlineHelpText>to find active account</inlineHelpText>
+    <label>Active Account</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <filterItems>
+            <field>Account.Active__c</field>
+            <operation>equals</operation>
+            <value>Yes</value>
+        </filterItems>
+        <filterItems>
+            <field>Account.Active__c</field>
+            <operation>notEqual</operation>
+            <value>No</value>
+        </filterItems>
+        <filterItems>
+            <field>Account.Active__c</field>
+            <operation>notEqual</operation>
+            <value>&quot;&quot;</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Contacts</relationshipLabel>
+    <relationshipName>Contacts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>when_status_not_confirmed</fullName>
+    <active>true</active>
+    <description>when HotelBooking.Status == Not-Confirmed then room no not needed if there is a room no then generate an error</description>
+    <errorConditionFormula>ISPICKVAL(Status__c, &quot;Not-Confirmed&quot;)</errorConditionFormula>
+    <errorDisplayField>RoomNo__c</errorDisplayField>
+    <errorMessage>You Cannot Select a Room or CheckIn-Time or CheckOut-Time if Your Status is == Not-Confirmed</errorMessage>
+</ValidationRule>

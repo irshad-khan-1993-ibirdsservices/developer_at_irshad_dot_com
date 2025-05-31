@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RoomCharges_rules</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK( RoomCharges__c ) || (RoomCharges__c &gt; 10000 || RoomCharges__c &lt; 1000)</errorConditionFormula>
+    <errorDisplayField>RoomCharges__c</errorDisplayField>
+    <errorMessage>Room charges must be between 1000 - 10000.</errorMessage>
+</ValidationRule>

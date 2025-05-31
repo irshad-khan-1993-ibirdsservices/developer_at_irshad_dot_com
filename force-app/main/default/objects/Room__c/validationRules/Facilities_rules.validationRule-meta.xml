@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facilities_rules</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISBLANK(Facilities__c )</errorConditionFormula>
+    <errorDisplayField>Facilities__c</errorDisplayField>
+    <errorMessage>Please select a Facilitiy.test</errorMessage>
+</ValidationRule>

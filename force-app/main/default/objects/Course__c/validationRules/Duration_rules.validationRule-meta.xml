@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duration_rules</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(ISBLANK(Duration__c ),Duration__c &gt; 48 ,Duration__c &lt; 6 )</errorConditionFormula>
+    <errorDisplayField>Duration__c</errorDisplayField>
+    <errorMessage>Duration is  requried,  and must be in range of 6 to 48.</errorMessage>
+</ValidationRule>

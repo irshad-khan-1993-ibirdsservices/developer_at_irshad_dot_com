@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Passport_Visa_Number_rules</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(ISPICKVAL(Nationality__c , &quot;NRI&quot;) ,ISPICKVAL(Nationality__c , &quot;FORIEGNER&quot;))   &amp;&amp; 
+ ISBLANK( Passport_Visa_Number__c )</errorConditionFormula>
+    <errorDisplayField>Passport_Visa_Number__c</errorDisplayField>
+    <errorMessage>You are not indian so your passport or visa number is required</errorMessage>
+</ValidationRule>

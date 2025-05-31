@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReturnDate_ruels</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(ReturnDate__c &gt;=  IssueDetails__r.DueDate__c )</errorConditionFormula>
+    <errorDisplayField>ReturnDate__c</errorDisplayField>
+    <errorMessage>ReturnDate must be greater than or equals DueDate of Related IssueDetails Record.</errorMessage>
+</ValidationRule>

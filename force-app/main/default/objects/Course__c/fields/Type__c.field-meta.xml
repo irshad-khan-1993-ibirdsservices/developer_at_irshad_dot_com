@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BCA</fullName>
+                <default>false</default>
+                <label>BCA</label>
+            </value>
+            <value>
+                <fullName>BSCIT</fullName>
+                <default>false</default>
+                <label>BSCIT</label>
+            </value>
+            <value>
+                <fullName>ICST</fullName>
+                <default>false</default>
+                <label>ICST</label>
+            </value>
+            <value>
+                <fullName>MCA</fullName>
+                <default>false</default>
+                <label>MCA</label>
+            </value>
+            <value>
+                <fullName>MSCIT</fullName>
+                <default>false</default>
+                <label>MSCIT</label>
+            </value>
+            <value>
+                <fullName>RSCIT</fullName>
+                <default>false</default>
+                <label>RSCIT</label>
+            </value>
+            <value>
+                <fullName>Short term</fullName>
+                <default>false</default>
+                <label>Short term</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

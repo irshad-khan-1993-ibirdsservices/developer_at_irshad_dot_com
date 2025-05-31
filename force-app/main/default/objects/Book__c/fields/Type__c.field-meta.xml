@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>comic book</fullName>
+                <default>false</default>
+                <label>comic book</label>
+            </value>
+            <value>
+                <fullName>science and technology</fullName>
+                <default>false</default>
+                <label>science and technology</label>
+            </value>
+            <value>
+                <fullName>financial related book</fullName>
+                <default>false</default>
+                <label>financial related book</label>
+            </value>
+            <value>
+                <fullName>mathematical related book</fullName>
+                <default>false</default>
+                <label>mathematical related book</label>
+            </value>
+            <value>
+                <fullName>information technology book</fullName>
+                <default>false</default>
+                <label>information technology book</label>
+            </value>
+            <value>
+                <fullName>social science book</fullName>
+                <default>false</default>
+                <label>social science book</label>
+            </value>
+            <value>
+                <fullName>novel</fullName>
+                <default>false</default>
+                <label>novel</label>
+            </value>
+            <value>
+                <fullName>Autobiographies</fullName>
+                <default>false</default>
+                <label>Autobiographies</label>
+            </value>
+            <value>
+                <fullName>Historical Fiction book</fullName>
+                <default>false</default>
+                <label>Historical Fiction book</label>
+            </value>
+            <value>
+                <fullName>Accounting related book</fullName>
+                <default>false</default>
+                <label>Accounting related book</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

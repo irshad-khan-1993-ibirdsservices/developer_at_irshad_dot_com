@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State__c</fullName>
+    <label>State</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Rajasthan</fullName>
+                <default>false</default>
+                <label>Rajasthan</label>
+            </value>
+            <value>
+                <fullName>Haryana</fullName>
+                <default>false</default>
+                <label>Haryana</label>
+            </value>
+            <value>
+                <fullName>Madhya Predesh</fullName>
+                <default>false</default>
+                <label>Madhya Predesh</label>
+            </value>
+            <value>
+                <fullName>Utter Predesh</fullName>
+                <default>false</default>
+                <label>Utter Predesh</label>
+            </value>
+            <value>
+                <fullName>Maharashtra</fullName>
+                <default>false</default>
+                <label>Maharashtra</label>
+            </value>
+            <value>
+                <fullName>Panjab</fullName>
+                <default>false</default>
+                <label>Panjab</label>
+            </value>
+            <value>
+                <fullName>Delhi</fullName>
+                <default>false</default>
+                <label>Delhi</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

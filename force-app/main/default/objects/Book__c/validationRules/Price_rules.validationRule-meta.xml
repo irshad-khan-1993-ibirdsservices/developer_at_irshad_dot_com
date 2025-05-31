@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_rules</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(Price__c &lt; 500,Price__c &gt; 15000)</errorConditionFormula>
+    <errorDisplayField>Price__c</errorDisplayField>
+    <errorMessage>BookPrice must be in range 500 to 15000.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#01FE0A</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>This is my Library Related custom lightning App</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Library Related App</label>
+    <navType>Standard</navType>
+    <tabs>Book__c</tabs>
+    <tabs>CopyDetails__c</tabs>
+    <tabs>Member__c</tabs>
+    <tabs>IssueDetails__c</tabs>
+    <tabs>ReturnDetails__c</tabs>
+    <tabs>Teacher__c</tabs>
+    <tabs>Student_intern__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Library_Related_App_UtilityBar</utilityBar>
+</CustomApplication>
